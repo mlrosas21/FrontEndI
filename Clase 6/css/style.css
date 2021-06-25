@@ -1,0 +1,48 @@
+header {
+    background: #F0A83E;
+}
+
+header .seccionArriba {
+    background: #222222;
+    color: #F3F3F3;
+}
+
+.navMenu li{
+    display: inline;
+}
+
+.imagenBanner {
+    width: 100%;
+}
+
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p .linkComederos {
+    display: block;
+    background-color: #F0A83E;
+}
+
+.banner h2 {
+    font-size: 30px;
+}
+
+.banner p {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1  {
+    font-size: 40px;
+    color: #3C2313;
+    ;
+}

@@ -1,0 +1,139 @@
+* {
+box-sizing: 0;
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    background-color: #222222;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+
+header h1 {
+    align-self: center;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+main .envioGratis .blanco {
+    color: white;
+}
+
+header nav {
+    margin: 0 30px 0 0;
+    margin-left: auto;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	width: 300px;
+	margin: 10px;
+    align-content: center;
+	justify-content: space-around;
+    margin: 40px 0 0 0;
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #E5E5E5;
+    align-content: center;
+    margin: 35px;
+}
+
+main .envioGratis {
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+}
+
+main .envioGratis h2 {
+    margin: 20px 0 0 20px;
+    color: red;
+}
+
+main .podioPizzas {
+    background-color: #FFFFFF;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px; 
+}
+
+main .podioPizzas h2 {
+    font-size: 24px;
+    color: red;
+    padding: 26px 0 0 0;
+    text-align: center;
+}
+
+main .podioPizzas h3 {
+    padding: 50px 0 0 74px;
+}
+
+main .podioPizzas ol {
+    margin: 0 0 0 51px;
+    line-height: 30px;
+}
+
+main .podioPizzas img {
+    position: relative;
+    bottom: 150px;
+    left: 300px;
+}
+
+footer {
+    display: flex;
+    background-color: #222222;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+    padding: 5px 0 0 25px;
+}
+
+footer .logoFooter {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+footer .logoFooter img {
+    height: 94px;
+}
+
+footer .logoFooter h2 {
+    margin: 0 30px 0 0;
+}
