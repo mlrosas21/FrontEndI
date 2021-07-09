@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background: #F0A83E;
+}
+
+header .seccionArriba {
+    background: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 58px;
+}
+
+header .seccionArriba .idioma {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+header .principal {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.navSuperior ul{
+    width: 600px; 
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px 0 0;
+}
+
+.navSuperior li{
+    display: inline;
+}
+
+.navMenu li{
+    display: inline;
+}
+
+main .banner {
+    position: relative;
+}
+
+main .banner h2 {
+    width: 100%;
+    position: absolute;
+    top: 156px;
+    left: 75%;
+    background: #ffffff;
+    width: 380px;
+    height: 35px;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p .linkComederos {
+    display: block;
+    background-color: #F0A83E;
+}
+
+.banner h2 {
+    font-size: 30px;
+}
+
+.banner p {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1  {
+    font-size: 40px;
+    color: #3C2313;
+    ;
+}
+
+footer {
+    background: #3C2313;
+}
+
+footer h5 {
+    font-size: 20px;
+}
+
+footer .derechos {
+    background-color: #222222;
+    height: 20px;
+    width: 100%;
+    color: #ffffff;
+}

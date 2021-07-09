@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header .descuento {
+    display: flex;
+    align-items: center;
+    background: #1CD1B0;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    height: 23px;
+    padding: 15px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #00669F;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 99px;
+}
+
+main {
+    background-color: #00669F;
+    border-radius: 49px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    color: #FBFFFD;
+    margin: 40px 243px;
+    text-align: center;
+    padding: 0px 122px;
+}
+
+main h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main p {
+    color: white;
+    font-size: 20px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main form div {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+main form div section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+main form div div {
+    display: flex;
+    flex-direction: column;
+}
+
+main form div div section {
+    display: flex;
+}
+
+main form button {
+    background: #1CD1B0;
+    border-radius: 23px;
+    width: 466px;
+    height: 87px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00669F;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 21px 0;
+}
+
+
+
